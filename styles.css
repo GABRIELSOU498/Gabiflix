@@ -1,0 +1,56 @@
+body{
+    color:rgb(0, 0, 0);
+    background:rgb(23, 16, 84);
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 5px rgb(190, 129, 54);
+    padding: 20px;
+    font-size: 32px;
+    color:rgb(190, 129, 54)
+    
+}
+
+section{
+    background:rgb(255, 255, 255)
+    
+}
+    
+.janela{
+    display: flex;
+    margin-right: 5%;
+}
+
+h1{
+    font-family: "Manrope", sans-serif;
+}
+
+img{
+    height: 200px;
+}
+
+.videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.fundo {
+    background: rgb(23, 16, 84);
+}
+
+h2 {
+    font-family: "Grey Qo", cursive;
+    font-size: 50px;
+}
+
+.videos img {
+    opacity: 0.5px;
+}
+
+.videos img:hover{
+    opacity: 1.0px;
+    border: 3px solid white;
+}
